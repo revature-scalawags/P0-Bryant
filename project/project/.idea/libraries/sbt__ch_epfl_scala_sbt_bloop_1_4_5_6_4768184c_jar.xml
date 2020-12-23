@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="sbt: ch.epfl.scala:sbt-bloop:1.4.5-6-4768184c:jar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/AppData/Local/Coursier/cache/v1/https/repo1.maven.org/maven2/ch/epfl/scala/sbt-bloop_2.12_1.0/1.4.5-6-4768184c/sbt-bloop-1.4.5-6-4768184c.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/AppData/Local/Coursier/cache/v1/https/repo1.maven.org/maven2/ch/epfl/scala/sbt-bloop_2.12_1.0/1.4.5-6-4768184c/sbt-bloop-1.4.5-6-4768184c-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/AppData/Local/Coursier/cache/v1/https/repo1.maven.org/maven2/ch/epfl/scala/sbt-bloop_2.12_1.0/1.4.5-6-4768184c/sbt-bloop-1.4.5-6-4768184c-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

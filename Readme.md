@@ -1,5 +1,5 @@
 # CSVReader
-A simple project to extract data from a CSV file for analytics
+Pulls data from Pokemon CSV to analyze data
 
 ## Compile
 >sbt compile
@@ -8,28 +8,33 @@ A simple project to extract data from a CSV file for analytics
 >sbt test
 
 ## Run
->stb --error run
+>stb run
 
 # Requirements
 - [ ] Written in Scala/SBT
 - [ ] Takes input from CLI
-    - [ ] CSV or JSON simple datasets
-    - [ ] Flags/environment variables
+    - [ ] CSV
     - [ ] arguments
 - [ ] Parses datasets into a Collection
-    - [ ] Every line parsed into arrays
-    - [ ] Every item in a line is gathered into a Map
+    - [ ] Every line parsed into a class then an array
+    - [ ] Every item in a line is gathered into a Class
 - [ ] Analysis
-    - [ ] Count every instance of a key from the Map
+    - [ ] Counts number of type pokemon
+    - [ ] Prints all of every pokemon's stats or specific ones/types
 - [ ] Output analysis
     - [ ] Output to STDOUT
-    - [ ] Output to File
-    - [ ] Output to MongoDB
+    - [ ] Output to txt File (arguments inputed)
+    
 
 # Features
-- [ ] CLI that takes dataset as file input
-- [ ] Use Scala Map to map values from dataset as keys
-- [ ] Aggregate and count (Reduce) all keys
-- [ ] Return list of counts
-- [ ] Well documented and extensive code coverage with unit tests
-- [ ] Logs events and output to files and NoSQL databases
+- [ ] CLI that takes args to find data in csv
+- [ ] Well documented
+- [ ] Logs events
+
+# Usage 
+
+usage: CSVReader [-paps] : print all pokemon stats
+                 [-patps pokemonType] : Print all 'type' pokemons stats
+                 [-gntp pokemonType] : gets the number of 'type' pokemon
+                 [-ppxs pokemonName] : Prints all of a pokemon's stats
+  }
